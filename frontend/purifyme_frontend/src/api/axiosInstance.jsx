@@ -7,7 +7,7 @@ const axiosInstance = axios.create({
   xsrfHeaderName: 'X-CSRFToken',
 });
 
-// Request interceptor
+
 axiosInstance.interceptors.request.use(
   (config) => {
     const token = localStorage.getItem('accessToken');
@@ -19,7 +19,7 @@ axiosInstance.interceptors.request.use(
   (error) => Promise.reject(error)
 );
 
-// Response interceptor
+
 axiosInstance.interceptors.response.use(
   (response) => response,
   async (error) => {
