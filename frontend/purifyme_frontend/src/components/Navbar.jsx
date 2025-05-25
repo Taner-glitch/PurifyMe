@@ -54,7 +54,7 @@ export default function Navbar({ isLoggedIn, onLogout }) {
             </NavLink>
           </div>
 
-          {/* Authentication Links (Sağ) */}
+          
           <div className="flex-shrink-0 flex items-center space-x-4">
             {isLoggedIn ? (
               <button 
