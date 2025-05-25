@@ -42,13 +42,13 @@ function Login({ onLogin }) {
       >
         <div className="bg-white shadow-2xl rounded-xl overflow-hidden">
           
-          {/* Header */}
+          
           <div className="bg-gradient-to-r from-indigo-600 to-purple-600 py-6 px-8">
             <h2 className="text-3xl font-bold text-white text-center">Giriş Yap</h2>
             <p className="text-indigo-100 text-center mt-2">Hesabınıza erişmek için giriş yapın</p>
           </div>
 
-          {/* Form */}
+          
           <motion.form
             className="py-8 px-8 space-y-6"
             onSubmit={handleSubmit}
