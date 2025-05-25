@@ -21,7 +21,7 @@ function AppContent() {
     setIsLoggedIn(false);
   };
 
-  // Login veya Register sayfasındaysak Navbar gösterme
+  
   const hideNavbar = location.pathname === '/login' || location.pathname === '/register';
 
   return (
