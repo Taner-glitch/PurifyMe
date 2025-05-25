@@ -20,7 +20,7 @@ function Home() {
 
   return (
     <div className="relative">
-      {/* Hero Section (Centered) */}
+      
       <section 
         className="relative h-screen w-full flex items-center justify-center text-center px-4 pt-20"
         style={{ 
@@ -68,7 +68,7 @@ function Home() {
         </div>
       </section>
 
-      {/* Physical Cleansing - Image Left */}
+      
       <motion.section 
         className="py-16 px-4 max-w-7xl mx-auto"
         initial={{ opacity: 0, y: 50 }}
@@ -77,7 +77,7 @@ function Home() {
         viewport={{ once: true }}
       >
         <div className="flex flex-col md:flex-row items-center gap-8">
-          {/* Image on LEFT */}
+         
           <div className="w-full md:w-1/2">
             <img 
               src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
@@ -86,7 +86,7 @@ function Home() {
             />
           </div>
           
-          {/* Content on RIGHT */}
+          
           <div className="w-full md:w-1/2 md:pl-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Fiziksel Arınma</h2>
             <p className="text-gray-600 mb-4">
@@ -105,7 +105,7 @@ function Home() {
         </div>
       </motion.section>
 
-      {/* Mental Cleansing - Image Left */}
+      
       <motion.section 
         className="py-16 px-4 max-w-7xl mx-auto bg-gray-50"
         initial={{ opacity: 0, y: 50 }}
@@ -114,7 +114,7 @@ function Home() {
         viewport={{ once: true }}
       >
         <div className="flex flex-col md:flex-row items-center gap-8">
-          {/* Image on LEFT */}
+          
           <div className="w-full md:w-1/2">
             <img 
               src="https://images.unsplash.com/photo-1545205597-3d9d02c29597?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
@@ -123,7 +123,7 @@ function Home() {
             />
           </div>
           
-          {/* Content on RIGHT */}
+          
           <div className="w-full md:w-1/2 md:pl-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Zihinsel Arınma</h2>
             <p className="text-gray-600 mb-4">
@@ -142,7 +142,7 @@ function Home() {
         </div>
       </motion.section>
 
-      {/* Spiritual Cleansing - Image Left */}
+      
       <motion.section 
         className="py-16 px-4 max-w-7xl mx-auto"
         initial={{ opacity: 0, y: 50 }}
@@ -151,7 +151,7 @@ function Home() {
         viewport={{ once: true }}
       >
         <div className="flex flex-col md:flex-row items-center gap-8">
-          {/* Image on LEFT */}
+         
           <div className="w-full md:w-1/2">
             <img 
               src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
@@ -160,7 +160,7 @@ function Home() {
             />
           </div>
           
-          {/* Content on RIGHT */}
+          
           <div className="w-full md:w-1/2 md:pl-8">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Ruhsal Arınma</h2>
             <p className="text-gray-600 mb-4">
@@ -179,7 +179,7 @@ function Home() {
         </div>
       </motion.section>
 
-      {/* CTA Section */}
+      
       <section className="py-16 px-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white text-center">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Hayatınızı Dönüştürmeye Hazır mısınız?</h2>
