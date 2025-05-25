@@ -1,0 +1,17 @@
+# Python
+backend/venv/
+__pycache__/
+*.pyc
+
+# Django
+*.sqlite3
+*.log
+
+# Node.js
+frontend/purifyme_frontend/node_modules/
+frontend/purifyme_frontend/.next/
+
+# Ortak
+.env
+.DS_Store
+

@@ -1,0 +1,93 @@
+/* Genel düzen */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.app-header {
+  background: transparent !important;
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  transition: color 0.3s ease;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+/* Nav linkleri */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-item {
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease;
+  color: inherit;
+}
+
+.nav-item::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+/* Auth linkleri */
+.nav-auth {
+  margin-left: 1rem;
+  font-size: 0.95rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  color: inherit;
+}
+
+.nav-auth.register {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #3498db;
+  color: white !important;
+}
+
+.nav-auth.register:hover {
+  background-color: #2980b9;
+}
+
+/* Sayfa içeriği */
+main {
+  margin-top: 80px; /* Navbar yüksekliği kadar boşluk */
+}
